@@ -10,7 +10,7 @@ public class MyImplementation implements InterfaceDemo {
         return "Hello Spring";                  // defining the methods and calling them in controller class
     }                                           //the class which is defining the methods should have the @Service annotation
                                     //that the beans of this class should be available
-    /*@Override
+    @Override
     public int add() {
         int a=89;
         int b=34;
@@ -36,5 +36,5 @@ public class MyImplementation implements InterfaceDemo {
         int a=45;
         int b=23;
         return a*b;
-    }*/
+    }
 }

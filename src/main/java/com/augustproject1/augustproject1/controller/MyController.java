@@ -18,7 +18,7 @@ public class MyController {
         return str;                                     //will call the methods and @Service annotation above the class
     }                                                   //which is implementing the interface and defining the methods
 
-    /*@GetMapping(value = "/addition")
+    @GetMapping(value = "/addition")
     public int addition(){
         int add1=myImplementation.add();
         return add1;
@@ -40,5 +40,5 @@ public class MyController {
     int div(){
         int div1=myImplementation.div();
         return div1;
-    }*/
+    }
 }
